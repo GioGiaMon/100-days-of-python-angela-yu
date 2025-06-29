@@ -18,6 +18,7 @@ Each `dayXXX/` folder includes:
 - **Day 002**: Tip Calculator 💰  
 - **Day 003**: Treasure Island Adventure 🏝️  
 - **Day 004**: Randomization and Lists – Coin Toss, Treasure Map 🗺️  
+- **Day 005**: Password Generator 🔐  
 
 ✅ More days coming soon...
 
@@ -39,6 +40,4 @@ I'm using this course to **solidify my understanding of Python**, reinforce core
 
 ## ✅ Status
 
-Currently at **Day 4** – progressing daily at my own pace.
-
----
+Currently at **Day 5** – progressing daily at my own pace.
