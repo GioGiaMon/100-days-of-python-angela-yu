@@ -140,7 +140,7 @@ def my_function():
 #   elif wall_in_front():
 #     jump()
 #     turn_left()
-# Maze challange
+# Maze challenge
 # def turn_right():
 #    turn_left()
 #    turn_left()
@@ -161,7 +161,7 @@ def my_function():
 
 #
 #
-#
+# Maze challenge v2
 # def turn_right():
 #    turn_left()
 #    turn_left()
