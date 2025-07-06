@@ -6,7 +6,7 @@ files:
   - name: solution.py
     visible: true
     learner_created: false
-  - name: day6.log
+  - name: day6.md
     visible: true
     learner_created: true
 status: Solved
