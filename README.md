@@ -19,7 +19,8 @@ Each `dayXXX/` folder includes:
 - **Day 003**: Treasure Island Adventure 🏝️  
 - **Day 004**: Randomization and Lists – Coin Toss, Treasure Map 🗺️  
 - **Day 005**: Password Generator 🔐
-- **Day 006**: Reeborg’s World Challenges 🤖 (Maze navigation using functions and loops)  
+- **Day 006**: Reeborg’s World Challenges 🤖 (Maze navigation using functions and loops)
+- **Day 007**: Hangman Game 🎮 (with lives, ASCII art, guess history)
 
 ✅ More days coming soon...
 
@@ -41,4 +42,4 @@ I'm using this course to **solidify my understanding of Python**, reinforce core
 
 ## ✅ Status
 
-Currently at **Day 6** – progressing daily at my own pace.
+Currently at **Day 7** – progressing daily at my own pace.
