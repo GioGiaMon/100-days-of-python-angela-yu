@@ -1,5 +1,64 @@
 import random
+stages = [r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
 word_list = ["aardvark", "baboon", "camel"]
+
+# TODO-1: - Create a variable called 'lives' to keep track of the number of lives left.
+#  Set 'lives' to equal 6.
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
@@ -10,59 +69,54 @@ for position in range(word_length):
     placeholder += "_"
 print(placeholder)
 
-# TODO-1: - Use a while loop to let the user guess again.
-# write the while loop
-# initialize the display word
-display = ""
-# initialize the attempts and max attempts
-attempts = 0
-max_attempts = 7
-# initialize the guessed letters - correct ones
-list_of_guessed = []
-# the while loop
-while "_" in placeholder and attempts < max_attempts:
+# initialize variables
+game_over = False
+correct_letters = []
+# TODO-1 variable called lives to keep track of the number of lives left. Initialize to 6.
+lives = 6
+
+while not game_over:
     guess = input("Guess a letter: ").lower()
-    # check if the attempt is valid
-    if not guess.isalpha() or len(guess) != 1:
-        print("Please enter a single letter.")
-        continue
-    #  check if users already catch the letter
-    if guess in list_of_guessed:
-        print(f"You already guessed '{guess}'. Try another letter.")
-        continue
-    # initialize the guessed attempt
+
+    display = ""
+    # check if guessed -> initialize
     guessed = False
-    # TODO-2: Change the for loop so that you keep the previous correct letters in display.
-    # check if guessed or not
-    for i in range(len(chosen_word)):
-        if chosen_word[i] == guess:
-            guessed = True
-            #  add only the first time!!
-            if guess not in list_of_guessed:
-                list_of_guessed.append(guess)
-    # build the word to display
+
     for letter in chosen_word:
-        if letter in list_of_guessed:
+        if letter == guess:
+            display += letter
+            correct_letters.append(guess)
+            guessed = True
+        elif letter in correct_letters:
             display += letter
         else:
             display += "_"
-    # Add an attempt
-    attempts += 1
-    if guessed:
-        print(f"Good Try! Current word {display}")
-        placeholder = display
+
+    print(display)
+
+    # TODO-2: - If guess is not a letter in the chosen_word, Then reduce 'lives' by 1.
+    #  If lives goes down to 0 then the game should stop and it should print "You lose."
+    if not guessed and lives > 0:
+        lives = lives - 1
+        # print(f"You have left {lives} tries...")
+        # TODO-3: - print the ASCII art from 'stages'
+        print(f"{stages[lives]} \nWrong Try! The word to guess: {display}")
+        print(f"Your remaining lives are: {lives}")
+    elif lives == 0 and not guessed:
+        #  no more lives -> end game...
+        game_over = True
+        # TODO-3: - print the ASCII art from 'stages' - loose ...
+        print(f"{stages[lives]} \nYou lose!")
+        # print(f"Your remaining lives are: {lives}")
     else:
-        print(f"Wrong guess. Attempts: {attempts}/{max_attempts}\n Current word {display}")
-    # initialize the on-going print word variable
-    display = ""
-    print(f"Attempt number {attempts}, the word: {placeholder}")
+        # TODO-3: - print the ASCII art from 'stages'
+        print(f"{stages[lives]}\nYou guessed a letter! The word to guess is now: {display}")
+        # track the remaining attempts
+        print(f"Your remaining lives are: {lives}")
 
-# final print out: notify the user the result
-if "_" not in placeholder:
-    print("🎉 You won!")
-else:
-    print("💀 You lost!")
+    if "_" not in display and lives > 0:
+        game_over = True
+        print("You win.")
 
-
-
-
+    # TODO-3: - print the ASCII art from 'stages'
+    #  that corresponds to the current number of 'lives' the user has remaining.
