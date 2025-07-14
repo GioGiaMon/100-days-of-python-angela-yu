@@ -21,6 +21,7 @@ Each `dayXXX/` folder includes:
 - **Day 005**: Password Generator 🔐
 - **Day 006**: Reeborg’s World Challenges 🤖 (Maze navigation using functions and loops)
 - **Day 007**: Hangman Game 🎮 (with lives, ASCII art, guess history)
+- **Day 008**: Love Calculator 💘, Caesar Cipher 🔐, Functions with multiple inputs 🧠
 
 ✅ More days coming soon...
 
@@ -42,4 +43,5 @@ I'm using this course to **solidify my understanding of Python**, reinforce core
 
 ## ✅ Status
 
-Currently at **Day 7** – progressing daily at my own pace.
+Currently at **Day 8** – progressing daily at my own pace.
+Excited to keep going!
