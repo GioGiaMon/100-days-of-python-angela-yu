@@ -22,10 +22,19 @@ Each `dayXXX/` folder includes:
 - **Day 006**: Reeborg’s World Challenges 🤖 (Maze navigation using functions and loops)
 - **Day 007**: Hangman Game 🎮 (with lives, ASCII art, guess history)
 - **Day 008**: Love Calculator 💘, Caesar Cipher 🔐, Functions with multiple inputs 🧠
+- **Day 009**: Dictionaries & Nested Data Structures 📚
+
+## 💭 Thoughts & Reflections on Day 009
+
+I'm starting to see patterns in how I write and refactor code. While the first version of the Blind Auction works, the second version feels more structured. 
+|I know there's still room for improvement, but I enjoy revisiting my code and making it cleaner.
+
 
 ✅ More days coming soon...
 
 ---
+
+
 
 ## 🚀 Tools
 
