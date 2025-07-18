@@ -21,6 +21,7 @@ Each `dayXXX/` folder includes:
 - **Day 005**: Password Generator 🔐
 - **Day 006**: Reeborg’s World Challenges 🤖 (Maze navigation using functions and loops)
 - **Day 007**: Hangman Game 🎮 (with lives, ASCII art, guess history)
+- **Day 008**: Love Calculator 💘, Caesar Cipher 🔐, Functions with multiple inputs 🧠
 
 ✅ More days coming soon...
 
@@ -42,4 +43,17 @@ I'm using this course to **solidify my understanding of Python**, reinforce core
 
 ## ✅ Status
 
-Currently at **Day 7** – progressing daily at my own pace.
+Currently at **Day 8** – progressing daily at my own pace.
+Excited to keep going!
+
+
+## 🧠 Thoughts / Reflections
+
+Sometimes learning is the only truly free and authentic act I can claim.  
+It creates new connections, new visions, new worlds – that exist only in my mind.  
+Maybe I don’t always have the courage to share them. Maybe sharing too much breaks the spell.  
+Still, they are mine. Like a hidden architecture that suddenly reveals itself.  
+No one can copy that. No one can take that away.
+
+This is a quiet act of resistance. Of creation. Of self-affirmation beyond form.
+
