@@ -56,7 +56,7 @@ I'm using this course to **solidify my understanding of Python**, reinforce core
 
 ## ✅ Status
 
-Currently at **Day 8** – progressing daily at my own pace.
+Currently at **Day 10** – progressing daily at my own pace.
 Excited to keep going!
 
 
