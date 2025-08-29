@@ -23,8 +23,12 @@ Each `dayXXX/` folder includes:
 - **Day 007**: Hangman Game 🎮 (with lives, ASCII art, guess history)
 - **Day 008**: Love Calculator 💘, Caesar Cipher 🔐, Functions with multiple inputs 🧠
 - **Day 009**: Dictionaries & Nested Data Structures 📚 , Blind Auction Project 🔨👨‍⚖
+- **Day 010**: Calculator 🧮  
+  - Implemented basic arithmetic functions: add, subtract, multiply, divide  
+  - Added input validation for numbers and operations  
+  - Supports continuous calculations using the result of the previous operation
 
-## 💭 Thoughts & Reflections on Day 009
+## 💭 Thoughts & Reflections on Day 010
 
 I'm starting to see patterns in how I write and refactor code. While the first version of the Blind Auction works, the second version feels more structured. 
 |I know there's still room for improvement, but I enjoy revisiting my code and making it cleaner.
