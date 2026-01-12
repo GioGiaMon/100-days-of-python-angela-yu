@@ -27,6 +27,10 @@ Each `dayXXX/` folder includes:
   - Implemented basic arithmetic functions: add, subtract, multiply, divide  
   - Added input validation for numbers and operations  
   - Supports continuous calculations using the result of the previous operation
+- **Day 011**: Blackjack Game 🃏  
+  - Card dealing and score calculation  
+  - Ace handling and blackjack detection  
+  - Dealer logic and result comparison
 
 ## 💭 Thoughts & Reflections on Day 010
 
