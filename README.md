@@ -31,6 +31,7 @@ Each `dayXXX/` folder includes:
   - Card dealing and score calculation  
   - Ace handling and blackjack detection  
   - Dealer logic and result comparison
+- **Day 012**: Number Guessing Game 🕹️ (difficulty levels, attempts tracking, input validation)
 
 ## 💭 Thoughts & Reflections on Day 010
 
